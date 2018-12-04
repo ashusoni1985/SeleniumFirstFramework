@@ -1,35 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Orange HRM Application Test Automation Test Suite" duration-ms="25112" started-at="2018-11-29T10:22:55Z" finished-at="2018-11-29T10:23:20Z">
+  <suite name="Orange HRM Application Test Automation Test Suite" duration-ms="39790" started-at="2018-12-04T12:38:47Z" finished-at="2018-12-04T12:39:27Z">
     <groups>
     </groups>
-    <test name="Orange HRM App Test Cases" duration-ms="25112" started-at="2018-11-29T10:22:55Z" finished-at="2018-11-29T10:23:20Z">
+    <test name="Orange HRM App Test Cases" duration-ms="39790" started-at="2018-12-04T12:38:47Z" finished-at="2018-12-04T12:39:27Z">
       <class name="com.orangehrmselenium.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrmselenium.testcases.LoginPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="11117" started-at="2018-11-29T10:23:08Z" finished-at="2018-11-29T10:23:19Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrmselenium.testcases.LoginPageTest@55a1c291]" name="setUp" is-config="true" duration-ms="9076" started-at="2018-12-04T12:39:01Z" finished-at="2018-12-04T12:39:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifypageTitle()[pri:1, instance:com.orangehrmselenium.testcases.LoginPageTest@1a968a59]" name="verifypageTitle" duration-ms="37" started-at="2018-11-29T10:23:19Z" finished-at="2018-11-29T10:23:19Z">
+        <test-method status="PASS" signature="verifypageTitle()[pri:1, instance:com.orangehrmselenium.testcases.LoginPageTest@55a1c291]" name="verifypageTitle" duration-ms="39" started-at="2018-12-04T12:39:10Z" description="verify Page title" finished-at="2018-12-04T12:39:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifypageTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrmselenium.testcases.LoginPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="796" started-at="2018-11-29T10:23:19Z" finished-at="2018-11-29T10:23:20Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrmselenium.testcases.LoginPageTest@55a1c291]" name="tearDown" is-config="true" duration-ms="738" started-at="2018-12-04T12:39:10Z" finished-at="2018-12-04T12:39:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.orangehrmselenium.testcases.LoginPageTest -->
-      <class name="com.orangehrmselenium.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrmselenium.testcases.HomePageTest@548e7350]" name="setUp" is-config="true" duration-ms="12183" started-at="2018-11-29T10:22:55Z" finished-at="2018-11-29T10:23:07Z">
+      <class name="com.orangehrmselenium.testcases.AddUserPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrmselenium.testcases.AddUserPageTest@2145433b]" name="setUp" is-config="true" duration-ms="15247" started-at="2018-12-04T12:39:10Z" finished-at="2018-12-04T12:39:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:com.orangehrmselenium.testcases.HomePageTest@548e7350]" name="verifyTitle" duration-ms="83" started-at="2018-11-29T10:23:07Z" finished-at="2018-11-29T10:23:07Z">
+        <test-method status="PASS" signature="VerifyPagDisplayed()[pri:1, instance:com.orangehrmselenium.testcases.AddUserPageTest@2145433b]" name="VerifyPagDisplayed" duration-ms="93" started-at="2018-12-04T12:39:26Z" description="Verify whether page displayed or not" finished-at="2018-12-04T12:39:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPagDisplayed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrmselenium.testcases.AddUserPageTest@2145433b]" name="tearDown" is-config="true" duration-ms="745" started-at="2018-12-04T12:39:26Z" finished-at="2018-12-04T12:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrmselenium.testcases.AddUserPageTest -->
+      <class name="com.orangehrmselenium.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrmselenium.testcases.HomePageTest@341b80b2]" name="setUp" is-config="true" duration-ms="12788" started-at="2018-12-04T12:38:47Z" finished-at="2018-12-04T12:39:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:com.orangehrmselenium.testcases.HomePageTest@341b80b2]" name="verifyTitle" duration-ms="94" started-at="2018-12-04T12:39:00Z" description="Verify Section Title" finished-at="2018-12-04T12:39:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrmselenium.testcases.HomePageTest@548e7350]" name="tearDown" is-config="true" duration-ms="861" started-at="2018-11-29T10:23:07Z" finished-at="2018-11-29T10:23:08Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrmselenium.testcases.HomePageTest@341b80b2]" name="tearDown" is-config="true" duration-ms="738" started-at="2018-12-04T12:39:00Z" finished-at="2018-12-04T12:39:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

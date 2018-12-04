@@ -1,0 +1,3 @@
+com\orangehrmselenium\testcases\HomePageTest.class
+com\orangehrmselenium\testcases\LoginPageTest.class
+com\orangehrmselenium\testcases\AddUserPageTest.class

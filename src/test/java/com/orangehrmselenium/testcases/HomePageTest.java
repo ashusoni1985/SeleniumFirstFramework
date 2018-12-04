@@ -30,22 +30,22 @@ public class HomePageTest extends TestBase {
 	}
 	
 
-	@Test(priority=1)
+	@Test(priority=1, description="Verify Section Title")
 	public void verifyTitle(){
 		Assert.assertTrue(homePage.verifyHomePageMessage("Welcome Admin"));
 		
 		}
-	@Test(priority=2)
+	@Test(priority=2, description="Veify Home Page Title")
 	public void verifyPageTitle(){
 		Assert.assertTrue(homePage.verifyPageTitle("OrangeHRM"));
 	}
 	
-	@Test(priority=3)
+	@Test(priority=3, description="Verify the Menu Admin")
 	public void verifyMenuItem(){
 		Assert.assertTrue(homePage.verifyAdminLinkTest("Admin"));
 	}
 	
-	@Test(priority=4)
+	@Test(priority=4, description="Click on the Admin Menu")
 	public void clickOnAdminMenu(){
 		adminPage = homePage.clickOnAdminMenu();
 		//adminPage.verifyText("System Users");

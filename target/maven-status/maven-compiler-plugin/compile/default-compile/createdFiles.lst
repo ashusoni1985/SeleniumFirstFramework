@@ -1,0 +1,8 @@
+com\orangehrmselenium\utils\TestUtil.class
+com\orangehrmselenium\pages\AdminPage.class
+com\orangehrmselenium\ExtentReportListener\ExtentReporterNG.class
+com\orangehrmselenium\utils\WebEventListener.class
+com\orangehrmselenium\base\TestBase.class
+com\orangehrmselenium\pages\HomePage.class
+com\orangehrmselenium\pages\LoginPage.class
+com\orangehrmselenium\pages\AddUserPage.class

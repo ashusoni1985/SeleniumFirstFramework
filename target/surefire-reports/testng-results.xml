@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Orange HRM Application Test Automation Test Suite" duration-ms="43451" started-at="2018-12-04T10:47:08Z" finished-at="2018-12-04T10:47:52Z">
+    <groups>
+    </groups>
+    <test name="Orange HRM App Test Cases" duration-ms="43451" started-at="2018-12-04T10:47:08Z" finished-at="2018-12-04T10:47:52Z">
+      <class name="com.orangehrmselenium.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrmselenium.testcases.LoginPageTest@44f75083]" name="setUp" is-config="true" duration-ms="9358" started-at="2018-12-04T10:47:24Z" finished-at="2018-12-04T10:47:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifypageTitle()[pri:1, instance:com.orangehrmselenium.testcases.LoginPageTest@44f75083]" name="verifypageTitle" duration-ms="39" started-at="2018-12-04T10:47:34Z" description="verify Page title" finished-at="2018-12-04T10:47:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifypageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrmselenium.testcases.LoginPageTest@44f75083]" name="tearDown" is-config="true" duration-ms="684" started-at="2018-12-04T10:47:34Z" finished-at="2018-12-04T10:47:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrmselenium.testcases.LoginPageTest -->
+      <class name="com.orangehrmselenium.testcases.AddUserPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrmselenium.testcases.AddUserPageTest@2698dc7]" name="setUp" is-config="true" duration-ms="16445" started-at="2018-12-04T10:47:34Z" finished-at="2018-12-04T10:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyPagDisplayed()[pri:1, instance:com.orangehrmselenium.testcases.AddUserPageTest@2698dc7]" name="VerifyPagDisplayed" duration-ms="87" started-at="2018-12-04T10:47:51Z" description="Verify whether page displayed or not" finished-at="2018-12-04T10:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPagDisplayed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrmselenium.testcases.AddUserPageTest@2698dc7]" name="tearDown" is-config="true" duration-ms="693" started-at="2018-12-04T10:47:51Z" finished-at="2018-12-04T10:47:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrmselenium.testcases.AddUserPageTest -->
+      <class name="com.orangehrmselenium.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrmselenium.testcases.HomePageTest@6366ebe0]" name="setUp" is-config="true" duration-ms="15069" started-at="2018-12-04T10:47:08Z" finished-at="2018-12-04T10:47:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:com.orangehrmselenium.testcases.HomePageTest@6366ebe0]" name="verifyTitle" duration-ms="90" started-at="2018-12-04T10:47:23Z" description="Verify Section Title" finished-at="2018-12-04T10:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrmselenium.testcases.HomePageTest@6366ebe0]" name="tearDown" is-config="true" duration-ms="699" started-at="2018-12-04T10:47:24Z" finished-at="2018-12-04T10:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrmselenium.testcases.HomePageTest -->
+    </test> <!-- Orange HRM App Test Cases -->
+  </suite> <!-- Orange HRM Application Test Automation Test Suite -->
+</testng-results>
